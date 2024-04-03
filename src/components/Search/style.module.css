@@ -1,0 +1,30 @@
+.Search {
+  width: 100%;
+  height: 80px;
+  background: none;
+  padding: 8px;
+  border-bottom: 2px solid #ccc;
+  display: flex;
+}
+.inputArea {
+  width: 98%;
+  height: 40px;
+  border-radius: 6px;
+  border: none;
+}
+.inputArea::placeholder {
+    color: gray;
+    background-image: url('C:\Users\IMOE001\aryeh fullStuck\emailSistem\client\public\search_FILL0_wght400_GRAD0_opsz24.svg');
+    background-repeat: no-repeat;
+    background-position: right center; /* Position the icon on the right side */
+    padding-right: 2px; /* Adjust padding to make space for the icon */
+    padding-top: 2px;
+    
+  }
+  .inputArea::placeholder svg {
+    fill: gray; /* Change the color of the SVG icon to gray */
+  }
+/* .searchButton{
+    width: 30%;
+    height: 40px;
+} */

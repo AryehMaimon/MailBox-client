@@ -1,0 +1,80 @@
+.MailItem {
+  width: 98%;
+  height: 66px;
+  border-radius: 4px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.senderAndMessage {
+  width: 55%;
+  max-height: 100%;
+}
+.pimg {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+.kumbhSansHeading {
+  font-family: "Kumbh Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600; /* Bold */
+  font-style: normal;
+  font-variation-settings: "YOPQ" 300;
+  font-size: 16px;
+  width: 100%;
+  max-height: 27px;
+}
+
+.kumbhSansPreMsg {
+  font-family: "Kumbh Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500; /* Regular */
+  font-style: normal;
+  font-variation-settings: "YOPQ" 300;
+  font-size: 12px;
+  color: #8191a9;
+  width: 100%;
+  max-height: 27px;
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflow text */
+  text-overflow: ellipsis;
+}
+.timeAndUnread {
+  width: 15%;
+  max-height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2px;
+}
+.time {
+  width: 50%;
+  height: 27px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600; /* Regular */
+  font-style: normal;
+  font-variation-settings: "YOPQ" 300;
+  font-size: 12px;
+  color: #717d9d;
+  
+}
+.inboxOrStar{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+}
+/* Rectangle 3 */
+
+.starActive{
+  /* Vector */
+width: 12px;
+height: 12px;
+color: #00A389;
+
+}

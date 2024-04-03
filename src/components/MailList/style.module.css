@@ -1,0 +1,27 @@
+.mailList {
+  width: 380px;
+  height: 98%;
+  margin-top: 1%;
+  background-color: rgb(214, 215, 218);
+  border-radius: 15px;
+  padding: 1px;
+  /* border: solid gray 1px; */
+  display: flex;
+  flex-direction: column;
+  padding: 3px;
+  padding-top: 15px;
+}
+
+.listArea {
+  
+  height: 500px;
+  background-color: rgb(214, 215, 218);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  overflow-y: auto;
+}
+::-webkit-scrollbar {
+  width: 5px; /* Set the width of the scrollbar */
+}

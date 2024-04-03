@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}    
+
+  
+  /* background-color: rgba(244, 246, 248, 1); */
+  /* For text mail */
+  .kumbh-sans-mail {
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Regular */
+    font-style: normal;
+    font-variation-settings:
+      "YOPQ" 300;
+      font-size: 16px;
+  }

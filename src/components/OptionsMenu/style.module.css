@@ -1,0 +1,109 @@
+.OptionsMenu {
+  width: 300px;
+  height: 100%;
+  padding: 5px;
+  background-color: rgba(244, 246, 248, 1);
+  border-radius: 15px 0 0 15px;
+  border-left: solid gray 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.headline {
+  height: 80px;
+  margin-left: 3px;
+  margin-top: 2px;
+  border-radius: 7px 0 0 0;
+  padding: 20px 10px 20px 10px;
+  border-bottom: 1px solid gray;
+  font-family: "Kumbh Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600; /* Regular */
+  font-style: normal;
+  font-variation-settings: "YOPQ" 300;
+  font-size: 24px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.headlineRevBox {
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+  border-radius: 7px;
+  background-color: rgb(214, 215, 218);
+  font-family: "Kumbh Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600; /* Regular */
+  font-style: normal;
+  font-variation-settings: "YOPQ" 300;
+  font-size: 18px;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newMsgBut {
+  width: 249px;
+  height: 51px;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 12px;
+  margin: 8px;
+  align-self: center;
+  font-family: "Kumbh Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Regular */
+  font-style: normal;
+  font-variation-settings: "YOPQ" 300;
+  font-size: 14px;
+  border: none;
+  color: white;
+  background-color: #00a389;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.fillters {
+  height: 200px;
+  padding: 10px;
+  overflow-y: auto;
+}
+::-webkit-scrollbar {
+    width: 5px; /* Set the width of the scrollbar */
+  }
+li {
+  height: 36px;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.liIcon {
+  /* height: 56px; */
+  display: flex;
+  width: 22px;
+  height: 22px;
+  color: gray;
+}
+.liName {
+  /* height: 56px; */
+  font-family: "Kumbh Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "YOPQ" 300;
+  font-size: 14.5px;
+  color: black;
+  flex-grow: 2;
+}
+
+li:hover {
+  color: #00a389;
+}
+.labelShaep{
+    width: 50px;
+    height: 20px;
+}
+

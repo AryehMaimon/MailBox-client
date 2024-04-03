@@ -1,0 +1,8 @@
+.Correspondence{
+    width: 500px;
+    height: 100%;
+    background-color: rgba(244, 246, 248, 1);
+    
+    border-radius: 0 15px 15px 0;
+    /* border: solid gray 1px; */
+    }
