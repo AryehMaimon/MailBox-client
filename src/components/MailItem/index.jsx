@@ -13,7 +13,7 @@ export default function MailItem(props) {
       </div>
       <div className={styles.timeAndUnread}>
         <div className={styles.time}>{props.time}</div>
-        <div className={styles.inboxOrStar}>{props.unRead >0? 
+        <div className={styles.inboxOrStar}>{props.unRead>0? 
         <InboxSign value = {props.unRead}/>:
         <FaStar className={styles.starActive} />
 
