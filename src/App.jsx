@@ -2,7 +2,6 @@ import React from "react";
 import SideBar from "./components/SideBar";
 import OptionsMenu from "./components/OptionsMenu";
 import MailList from "./components/MailList";
-import Correspondence from "./components/Correspondence";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 
@@ -18,7 +17,7 @@ export default function App() {
         <Route path="favourites" element={<MailList />} />
       </Routes>
 
-      <Correspondence />
+    
     </div>
   );
 }

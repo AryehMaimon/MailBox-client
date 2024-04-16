@@ -1,10 +1,11 @@
 import React from "react";
-import Correspondence from "../Correspondence";
+import Correspondence from "../Conversation";
 import styles from "./style.module.css";
 import Search from "../Search";
 import MailItem from "../MailItem";
 import { useState, useEffect } from "react";
 import useAxiosReq from "../../functions/useAxiosReq";
+import { FaEnvelope } from "react-icons/fa";
 
 export default function MailList() {
   const { data , loading, error } = useAxiosReq({
@@ -64,6 +65,7 @@ export default function MailList() {
               time={handleTime(d.chat.lastDate, date)}
               message={d.chat.msg[d.chat.msg.length - 1].content}
               unRead={d.isRead?0:1}
+              isFavurite  = {d.isFavorite}
             />
           ))}
         </div>

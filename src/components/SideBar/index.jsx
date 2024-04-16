@@ -19,7 +19,7 @@ export default function SideBar() {
   ];
   return (
    <div className={styles.SideBar}>
-      <img className={styles.SideBarLogo} src='public/logoMailBox.png'/>
+      <img className={styles.SideBarLogo} src='/logoMailBox.png'/>
       <ul className={styles.SideBarIcons}>
       {sideBarIcons.map((icon, index) => (
           <li key={index} className={styles.iconLi} >

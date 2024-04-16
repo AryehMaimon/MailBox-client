@@ -70,11 +70,20 @@
   justify-content: center;
 }
 /* Rectangle 3 */
-
+.envelope{
+  width: 20px;
+height: 20px;
+color: #00A389;
+}
 .starActive{
   /* Vector */
 width: 12px;
 height: 12px;
 color: #00A389;
 
+}
+.starNotActive{
+  width: 12px;
+height: 12px;
+counter-reset: gray;
 }
